@@ -5,7 +5,7 @@ require mathlib from git
   "https://github.com/leanprover-community/mathlib4"
 
 require leantest from git
-  "https://github.com/cspr-rad/leantest"
+  "https://github.com/cspr-rad/lean-test"
 
 package «cspr-consensus» where
   -- add package configuration options here

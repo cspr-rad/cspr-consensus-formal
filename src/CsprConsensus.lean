@@ -1,3 +1,4 @@
 -- This module serves as the root of the `CsprConsensusFormal` library.
 -- Import modules here that should be built as part of the library.
-import «CsprConsensus».Basic
+import «CsprConsensus».Network
+import «CsprConsensus».Protocol

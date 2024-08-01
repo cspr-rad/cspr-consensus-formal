@@ -12,7 +12,3 @@ package «cspr-consensus» where
 
 lean_lib «CsprConsensus» where
   -- add library configuration options here
-
-@[default_target]
-lean_exe «cspr-consensus» where
-  root := `Main

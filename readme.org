@@ -1,3 +1,3 @@
 #+title: cspr-consensus-formal
 
-A critical paper underlying Casper's consensus protocol is /Weakly-terminating Binary Aggreement and Reliable Broadcast to Atomic Broadcast/ by Andreas Fackler, Samuel Schlesinger, and Matthew Doty. Here, we are drafting a formalization to machine check the pen-and-paper proofs therein.
+A critical paper underlying Casper's consensus protocol is [[https://arxiv.org/abs/2205.06314v1][Weakly-terminating Binary Aggreement and Reliable Broadcast to Atomic Broadcast]] by Andreas Fackler, Samuel Schlesinger, and Matthew Doty. Here, we are drafting a formalization to machine check the pen-and-paper proofs therein.

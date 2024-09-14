@@ -4,11 +4,11 @@ open Lake DSL
 require mathlib from git
   "https://github.com/leanprover-community/mathlib4"
 
-require leantest from git
-  "https://github.com/cspr-rad/lean-test"
+require LSpec from git
+  "https://github.com/argumentcomputer/LSpec"@"main"
 
-package «cspr-consensus» where
+package «zug» where
   -- add package configuration options here
 
-lean_lib «CsprConsensus» where
+lean_lib «Zug» where
   -- add library configuration options here

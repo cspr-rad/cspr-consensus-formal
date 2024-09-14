@@ -1,5 +1,5 @@
 import Mathlib.Data.Set.Finite
-import CsprConsensus.Network
+import Zug.Network
 
 class Value (β : Type) extends Inhabited β, BEq β, Repr β
 

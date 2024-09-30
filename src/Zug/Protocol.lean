@@ -47,6 +47,7 @@ class WBA extends Protocol Bool where
 class RB (β : Type) [Value β] extends Protocol β where
   /-- If the proposer is correct and has input v, the correct nodes eventually output v -/
   weak_termination : 1 = 1 -- TODO
+  -- need a story for eventually first
 
 class AB (β : Type) [Value β] extends Protocol β where
   /-- If any correct node outputs v before w, all correct nodes output v before w -/
